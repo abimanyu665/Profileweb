@@ -67,7 +67,6 @@ table {
     border: white;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: var(--border);
-    transition: width 1s, height 1s, transform 1s;
     
 }
 .box1 {
@@ -76,8 +75,6 @@ table {
     background-color: rgba(0, 0, 0, 0.301);
     width: 100%;
     border-radius: var(--border);
-    transition: width 1s, height 1s, transform 1s;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pad {
@@ -133,9 +130,4 @@ h2:hover {
 table:hover {
     transform: scale(1.2);
     box-shadow: 0px 70px 10px -40px rgba(128, 99, 99, 0.5);
-}
-.box1:hover {
-    transform: scale(1.2);
-    box-shadow: 0px 70px 10px -40px rgba(128, 99, 99, 0.5);
-}
 }
