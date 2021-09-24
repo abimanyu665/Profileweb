@@ -1,0 +1,124 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+    body {
+        background: url(img/stretched-1920-1080-621682.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+}
+
+.muka >img{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 500px;
+        border:10px solid rgb(255, 255, 255);
+        transition: width 2s, height 2s, transform 2s;
+        transition: width 2s, height 4s;
+}
+
+h2 {
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: var(--background);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    line-height: 50px;
+    border-radius: var(--border);
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-right: 50px;
+    color: white;
+    text-decoration:none;
+    border-radius: var(--border);
+    transition: width 2s, height 4s;
+
+
+}
+
+.contact {
+    background-color: var(--background);
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: var(--border);
+    transition: width 1s, height 1s, transform 1s;
+    margin-top: auto;
+}
+
+table {
+    color: white;
+    background-color:rgba(0, 0, 0, 0.301);
+    font-size: 30px;
+    border: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: var(--border);
+    
+}
+.box1 {
+    color: white;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 100%;
+    border-radius: var(--border);
+}
+
+.pad {
+     padding-top: 30px;
+}
+h1 {
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 300px;
+    position: relative;
+    background-color: var(--background) ;
+    animation-name: example;
+    animation-duration: 2s;
+    border-radius: 10px;
+
+}
+
+@keyframes example {
+    0% {background-color:rgba(0, 0, 0, 0.301); left:500px; right:100%;}
+    100% {background-color:rgba(0, 0, 0, 0.301); left:0px; right:100%;}
+}
+:root {
+    --border:20px;
+    --background : rgba(0, 0, 0, 0.301);
+}
+img {
+    width: 50px;
+}
+.contact:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 70px 10px -40px rgba(128, 99, 99, 0.5);
+}
+.muka:hover {
+    transform: scale(1.2);
+
+}
+p {
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
