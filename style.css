@@ -5,11 +5,11 @@
     margin-left: 20%;
     margin-right: 20%; 
 }
-    body {
-        background-image: linear-gradient(to right, rgb(0, 140, 255) , rgb(0, 255, 242));
+    body {       
         text-align: center;
         display: flex;
         justify-content: center;
+        background: rgb(37, 174, 238);
 }
 
 .muka >img{
@@ -17,14 +17,14 @@
         margin-left: auto;
         margin-right: auto;
         border-radius: 500px;
-        border:10px solid rgb(255, 255, 255);
+        border:10px solid rgba(19, 1, 1, 0.315);
        
 }
 
 h2 {
     margin-left: 20%;
     margin-right: 20%;
-    font-weight: 750;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: var(--background);
@@ -46,8 +46,6 @@ a {
     text-decoration:none;
     border-radius: var(--border);
     transition: width 2s, height 4s;
-    
-
 }
 
 .contact {
@@ -67,6 +65,7 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: var(--border);
     transition: width 1s, height 1s, transform 1s;
+    border: 10px;
     
 }
 .box1 {
@@ -76,6 +75,8 @@ table {
     width: 100%;
     border-radius: var(--border);
     transition: width 1s, height 1s, transform 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
 }
 
 .pad {
