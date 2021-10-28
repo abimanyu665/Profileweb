@@ -9,7 +9,7 @@
         text-align: center;
         display: flex;
         justify-content: center;
-        background: rgb(37, 174, 238);
+        background: rgb(238, 203, 230);
 }
 
 .muka >img{
@@ -108,7 +108,7 @@ img {
 }
 .contact:hover{
     transform: scale(1.2);
-    box-shadow: 0px 70px 10px -40px rgba(128, 99, 99, 0.5);
+    box-shadow: 0px 70px 10px -40px rgba(0, 0, 0, 0.5);
 }
 .muka:hover {
     transform: scale(1.2);
@@ -128,17 +128,15 @@ p {
 }
 h2:hover {
     transform: scale(1.2);
-    box-shadow: 0px 70px 10px -40px rgba(128, 99, 99, 0.5);
+    box-shadow: 0px 70px 10px -40px rgba(0, 0, 0, 0.5);
 }
 table:hover {
     transform: scale(1.2);
-    box-shadow: 0px 70px 10px -40px rgba(128, 99, 99, 0.5);
+    box-shadow: 0px 70px 10px -40px rgba(0, 0, 0, 0.5);
 }
 .box1:hover {
     transform: scale(1.2);
-    box-shadow: 0px 70px 10px -40px rgba(128, 99, 99, 0.5);
+    box-shadow: 0px 70px 10px -40px rgba(0, 0, 0, 0.5);
 }
 
-.tr1 {
-    border-start-start-radius: 50px;
-}
+
